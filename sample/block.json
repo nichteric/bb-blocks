@@ -1,0 +1,15 @@
+{
+	"name": "bb/sample",
+	"title": "A simple sample block",
+	"description": "",
+	"category": "bb-custom-blocks",
+	"icon": "editor-paragraph",
+	"keywords": [],
+	"acf": {
+		"mode": "false",
+		"renderTemplate": "sample.php"
+	},
+	"supports": {
+		"align": false
+	}
+}

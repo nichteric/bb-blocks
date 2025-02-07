@@ -1,0 +1,13 @@
+// Add block styles here
+// I recommend using `gulp-sass-glob` to be able to load all styles automatically.
+//
+// In your `src/scss/site.scss` (for example):
+//
+// [...]
+// /* BB Blocks */
+// @import '../../bb-blocks/**/style.scss';
+// [...]
+
+.bb-block-sample {
+	border: solid 4px red;
+}

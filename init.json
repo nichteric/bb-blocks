@@ -1,0 +1,131 @@
+{
+	"key": "group_64b7e6e7940a0",
+	"title": "BB Blocks",
+	"fields": [
+		{
+			"key": "field_650013a4c8e61",
+			"label": "Load all BB Blocks",
+			"name": "load_all_bb_blocks",
+			"aria-label": "",
+			"type": "true_false",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"message": "",
+			"default_value": 0,
+			"translations": "copy_once",
+			"ui_on_text": "",
+			"ui_off_text": "",
+			"ui": 1
+		},
+		{
+			"key": "field_64b7e6e796109",
+			"label": "Enabled BB Blocks",
+			"name": "bb_blocks_enabled",
+			"aria-label": "",
+			"type": "select",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": [
+				[
+					{
+						"field": "field_650013a4c8e61",
+						"operator": "!=",
+						"value": "1"
+					}
+				]
+			],
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"choices": {},
+			"default_value": [],
+			"return_format": "value",
+			"multiple": 1,
+			"translations": "copy_once",
+			"allow_null": 0,
+			"ui": 1,
+			"ajax": 0,
+			"placeholder": ""
+		},
+		{
+			"key": "field_650013d9c8e62",
+			"label": "Load all WordPress Blocks",
+			"name": "load_all_wp_blocks",
+			"aria-label": "",
+			"type": "true_false",
+			"instructions": "",
+			"required": 0,
+			"conditional_logic": 0,
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"message": "",
+			"default_value": 0,
+			"translations": "copy_once",
+			"ui_on_text": "",
+			"ui_off_text": "",
+			"ui": 1
+		},
+		{
+			"key": "field_64b7e6e79610c",
+			"label": "Enabled WordPress Blocks",
+			"name": "wp_blocks_enabled",
+			"aria-label": "",
+			"type": "select",
+			"instructions": "Recommended: 'core/group', 'core/column', 'core/columns', 'core/html', 'core/file', 'core/shortcode'.",
+			"required": 0,
+			"conditional_logic": [
+				[
+					{
+						"field": "field_650013d9c8e62",
+						"operator": "!=",
+						"value": "1"
+					}
+				]
+			],
+			"wrapper": {
+				"width": "",
+				"class": "",
+				"id": ""
+			},
+			"choices": {},
+			"default_value": [],
+			"return_format": "value",
+			"multiple": 1,
+			"translations": "copy_once",
+			"allow_null": 0,
+			"ui": 1,
+			"ajax": 0,
+			"placeholder": ""
+		}
+	],
+	"location": [
+		[
+			{
+				"param": "options_page",
+				"operator": "==",
+				"value": "acf-options"
+			}
+		]
+	],
+	"menu_order": 0,
+	"position": "normal",
+	"style": "default",
+	"label_placement": "top",
+	"instruction_placement": "label",
+	"hide_on_screen": "",
+	"active": true,
+	"description": "",
+	"show_in_rest": 0,
+	"modified": 1694503971
+}
